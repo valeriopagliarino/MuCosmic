@@ -2,7 +2,10 @@
   <img src="./assets/logo.png" width="350">
   
 Educational homemade cosmic muon telescope based on plastic scintillators, SiPMs and gaseous detector <p>
-  <b>Author: Valerio Pagliarino </b> <p>
+
+![Generic badge](https://img.shields.io/badge/Current_status-ALPHA_VERSION-<COLOR>.svg)
+
+<b>Author: Valerio Pagliarino </b> <p>
 
 # Description
   
@@ -35,6 +38,34 @@ You can freely reuse part of this project, but reference to the author is apprec
   - [Scintillator robotic holder](./docs/images/PlasticScintHolder.JPG)
   - [RedPitaya Readout](./docs/images/RedPitaya.JPG)
   - [Typical scintillator + SiPM + shaping amplifier signal waveform with coincidence](./data/Pulse_shaper_output_scope/DS1Z_QuickPrint19.png)
+
+## Useful documents for further developments
+
+### Particle detectors
+- Introduction to SiPM for cosmic rays detection (http://cold.oact.inaf.it/cold/index.php/en/detectors/sipm-en)
+- Cosmic ray detection with plastic scintillators (https://physicsopenlab.org/2016/01/04/scintillation-muons-detector/)
+- SiPM coupled to plastic scintillators (https://physicsopenlab.org/2016/03/31/sipm-plastic-scintillator/)
+
+### Hardware
+- Simple Frontend electronics for SiPM (https://physicsopenlab.org/2017/11/28/front-end-electronics-for-sipm/)
+- CERN Cosmic Pi GitLab Repository (https://ohwr.org/project/cosmic-pi/wikis/home)
+- CERN Cosmic Pi Schematic Design Review - Open to all (http://cosmicpi.org/blog/2016/07/05/schematic-design-review-open-to-all.html)
+- Red Pitaya public schematics (https://downloads.redpitaya.com/doc/Red_Pitaya_Schematics_STEM_125-10_V1.0.pdf)
+
+### Firmware
+- CERN Cosmic Pi 32 bit MCU Firmware (https://github.com/CosmicPi/CosmicPiFirmware1point7)
+- Build FPGA image for Red Pitaya (https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/fpga.html)
+- Red Pitaya / FPGA Resources (https://lniv.fe.uni-lj.si/redpitaya/)
+- Red Pitaya FPGA Firmware Repository (https://github.com/RedPitaya/RedPitaya-FPGA)
+
+### Software
+- Red Pitaya Jupyter Notebook Python interface (https://redpitaya.com/applications-measurement-tool/jupyter-notebook-python/)
+
+
+
+
+
+
   
 
 
