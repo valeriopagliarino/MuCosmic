@@ -21,12 +21,20 @@ The CERN Cosmic Pi main board contains also a GPS receiver that can be used for 
   - [Firmware](./docs/firmware.md)
   - [Frontend and analysis software (Python)](./docs/frontend.md)
 
-## Photos and videos
-  
- <p align="left" width="70">
-  <img src="./docs/images/experiment.JPG" width="800">
-  
 ## Copyright and acknowledgements
   
 You can freely reuse part of this project, but reference to the author is appreciated. This work has been supported by the "Red Pitaya" company that provided the STEMlab 125-10 board for free. Thank you very much!
+
+## Photos and videos
+  
+ <p align="center" width="70">
+  <img src="./docs/images/experiment.JPG" width="800">
+
+  - [Plastic Scintillator Detectors](./docs/images/PlasticScintDet.JPG)
+  - [Scintillators + SiPM analog electronics](./docs/images/PlasticScintAnalog.JPG)
+  - [Scintillator robotic holder](./docs/images/PlasticScintHolder.JPG)
+  - [RedPitaya Readout](./docs/images/RedPitaya.JPG)
+  - [Typical scintillator + SiPM + shaping amplifier signal waveform with coincidence](./data/Pulse_shaper_output_scope/DS1Z_QuickPrint19.png)
+  
+
 
