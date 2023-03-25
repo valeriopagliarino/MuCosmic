@@ -15,7 +15,12 @@ The two tiles are installed on a servomechanism that allows to change the orient
       - The slow control electronics consisting in microcontroller-based boards and a main board coming from the CERN Cosmic Pi kit that is able to generate high voltage for SiPM biasing and a Raspberry Pi 0.
       - The fast control electronics consisting in a signal conditioning board coming from the CERN Cosmic Pi kit, a broadband amplifier board and finally a Red Pitaya (based on Zynq7010) board used as DAQ system.
       
-The CERN Cosmic Pi main board contains also a GPS receiver that can be used for providing the events with an accurate timestamp.
+The CERN Cosmic Pi main board contains also a GPS receiver that can be used for providing the events with an accurate timestamp. The GPS is connected to a receiver module hosted on the main board, which is connected to an Arduino Due (32 bit MCU board) that communicates with a Raspberry Pi Zero via a serial interface.
+
+Under the two scintillator plates is located a homemade-gaseous detector with a photodiode readout. (Please see the links below for additional details.) The photodiodes are connected to the analog inputs of the Arduino Due module.
+
+The syncronization between the 'fast readout' of the scintillators using the Red Pitaya board and the readout of the gaseous detector is possible because the output of the frontend analog board responsible for the scintillator (SiPMs) readout is connected to a main board and then to the Arduino Due, but at the same time is connected to the RF inputs of the Red Pitaya board. Furthermore, an additional slower aux trigger signal is produced by the Red Pitaya DAQ system (GPIO output) when the acquisition is triggered.
+
       
 ## Documents & Sources
   

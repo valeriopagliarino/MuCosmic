@@ -82,3 +82,14 @@ The different operation regions, mentioned before, of a gaseous detector are sho
 
  <p align="left" width="70">
   <img src="https://www.radiation-dosimetry.org/wp-content/uploads/2019/12/Gaseous-Ionization-Detectors-Regions-min.png" width="800">
+
+### Details on the plastic scintillator
+(for further info please see: http://cosmicpi.org/2019/11/01/Cosmic-Pi-Recipe.html)
+
+Characterization of UPS-923A: https://www.sciencedirect.com/science/article/abs/pii/S0168900205018310
+
+Scintillators: For Cosmic Pi versions 1.6 and 1.7 we use two 10x100x200mm scintillators from Amcrys/ISMA in the Ukraine. The scintillators are pre-drilled, with two 3mm wide by 6mm deep round holes, by the manufacturer that allow for the mounting of the scintillators against the SiPM carrier snap-out. The designation of the scintillator type we use is UPS-923A, which refers to the chemical composition (Amcrys/ISMA product type). If you are unable to obtain this type of scintillator, you should be able to use Saint Gobain BC-408 or other equivalent plastic scintillator material. 
+
+
+### Details on the SiPMs
+ Please see the datasheet: https://www.ketek.net/wp-content/uploads/2018/12/KETEK-PM3325-WB-D0-Datasheet.pdf
