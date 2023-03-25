@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.30638",
+   "Default View_TopLeft":"151,-20",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 2 -x 650 -y 810 -defaultsOSRD -bot
+preplace port FIXED_IO -pg 1 -lvl 2 -x 680 -y 810 -defaultsOSRD -bot
+preplace port port-id_reset_rtl_0 -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace inst MCA_0 -pg 1 -lvl 4 -x 1210 -y 630 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 3 -x 900 -y 560 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 520 -y 320 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -x 900 -y 380 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 1210 -y 400 -defaultsOSRD
+preplace inst SpecMEM_0 -pg 1 -lvl 5 -x 1540 -y 650 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 2 -x 520 -y 100 -defaultsOSRD
+preplace netloc MCA_0_BinNum 1 4 1 N 620
+preplace netloc clk_wiz_1_clk_out1 1 3 2 1050 490 1370
+preplace netloc MCA_0_OutTrig 1 4 1 N 640
+preplace netloc axi_gpio_0_gpio2_io_o 1 4 1 1380 430n
+preplace netloc SpecMEM_0_BinNumOut 1 4 2 N 390 1710
+preplace netloc SpecMEM_0_WriteCompleted 1 3 3 1040 770 NJ 770 1700
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 3 200 210 750 250 1050J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 190 0 730
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 2 2 760 260 1040J
+preplace netloc reset_rtl_0_1 1 0 3 NJ 220 N 220 740J
+preplace netloc processing_system7_0_DDR 1 2 1 720 280n
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 710 300n
+preplace netloc S00_AXI_1 1 2 1 N 320
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 N 380
+levelinfo -pg 1 0 170 520 900 1210 1540 1730
+pagesize -pg 1 -db -bbox -sgen -120 -60 1730 920
+"
+}
+{
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"5",
+   "da_ps7_cnt":"1"
+}
