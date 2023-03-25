@@ -17,7 +17,7 @@ The two tiles are installed on a servomechanism that allows to change the orient
       
 The CERN Cosmic Pi main board contains also a GPS receiver that can be used for providing the events with an accurate timestamp.
       
-## Documents
+## Documents & Sources
   
   - [General description](./docs/description.md)
   - [Electronic schematics](./docs/electronics.md)
