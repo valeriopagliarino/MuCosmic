@@ -8,6 +8,8 @@ The samples coming from the ADC parallel output, when the ADC is triggered, are 
  <p align="center" width="70">
   <img src="../assets/Block_design.png" width="800">
 
+The Vivado firmware is managed in project mode.
+
 ## FPGA Digital Pulse Processing
 
 This IP is responsible for ADC threshold discrimination, signal filtering and integration.

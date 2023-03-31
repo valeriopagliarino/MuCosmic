@@ -29,6 +29,9 @@ The syncronization between the 'fast readout' of the scintillators using the Red
   - [Firmware](./docs/firmware.md)
   - [Frontend and analysis software (Python)](./docs/frontend.md)
 
+<p align="center" width="70">
+  <img src="./assets/block_diagram.png" width="800">
+
 ## Copyright and acknowledgements
   
 You can freely reuse part of this project, but reference to the author is appreciated. This work has been supported by the "Red Pitaya" company that provided the STEMlab 125-10 board for free. Thank you very much!
