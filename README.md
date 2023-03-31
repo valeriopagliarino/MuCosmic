@@ -30,7 +30,7 @@ The syncronization between the 'fast readout' of the scintillators using the Red
   - [Frontend and analysis software (Python)](./docs/frontend.md)
 
 <p align="center" width="70">
-  <img src="./assets/block_diagram.png" width="800">
+  <img src="./assets/Block_diagram.png" width="800">
 
 ## Copyright and acknowledgements
   
