@@ -1,0 +1,76 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.891243",
+   "Default View_TopLeft":"-163,-237",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 1980 -y 80 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 1980 -y 420 -defaultsOSRD
+preplace port Vp_Vn -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port Vaux0 -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace port Vaux1 -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
+preplace port Vaux9 -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port Vaux8 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_adc_enc_p_o -pg 1 -lvl 6 -x 1980 -y 160 -defaultsOSRD
+preplace port port-id_adc_enc_n_o -pg 1 -lvl 6 -x 1980 -y 140 -defaultsOSRD
+preplace port port-id_adc_csn_o -pg 1 -lvl 6 -x 1980 -y 120 -defaultsOSRD
+preplace port port-id_dac_clk_o -pg 1 -lvl 6 -x 1980 -y 180 -defaultsOSRD
+preplace port port-id_dac_rst_o -pg 1 -lvl 6 -x 1980 -y 200 -defaultsOSRD
+preplace port port-id_dac_sel_o -pg 1 -lvl 6 -x 1980 -y 220 -defaultsOSRD
+preplace port port-id_dac_wrt_o -pg 1 -lvl 6 -x 1980 -y 240 -defaultsOSRD
+preplace port port-id_adc_clk_p_i -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port port-id_adc_clk_n_i -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace portBus dac_dat_o -pg 1 -lvl 6 -x 1980 -y 20 -defaultsOSRD
+preplace portBus dac_pwm_o -pg 1 -lvl 6 -x 1980 -y 40 -defaultsOSRD
+preplace portBus exp_p_tri_io -pg 1 -lvl 6 -x 1980 -y 100 -defaultsOSRD
+preplace portBus exp_n_tri_io -pg 1 -lvl 6 -x 1980 -y 60 -defaultsOSRD
+preplace portBus daisy_p_i -pg 1 -lvl 0 -x 0 -y 710 -defaultsOSRD
+preplace portBus daisy_n_i -pg 1 -lvl 0 -x 0 -y 730 -defaultsOSRD
+preplace portBus daisy_p_o -pg 1 -lvl 6 -x 1980 -y 710 -defaultsOSRD
+preplace portBus daisy_n_o -pg 1 -lvl 6 -x 1980 -y 730 -defaultsOSRD
+preplace portBus led_o -pg 1 -lvl 6 -x 1980 -y 570 -defaultsOSRD
+preplace portBus adc_dat_a_i -pg 1 -lvl 0 -x 0 -y 550 -defaultsOSRD
+preplace portBus adc_dat_b_i -pg 1 -lvl 0 -x 0 -y 570 -defaultsOSRD
+preplace inst adc_processing_0 -pg 1 -lvl 5 -x 1790 -y 570 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 270 -y 160 -defaultsOSRD
+preplace inst util_ds_buf_1 -pg 1 -lvl 4 -x 1470 -y 710 -defaultsOSRD
+preplace inst util_ds_buf_2 -pg 1 -lvl 5 -x 1790 -y 710 -defaultsOSRD
+preplace inst digitalMCA_0 -pg 1 -lvl 4 -x 1470 -y 300 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 5 -x 1790 -y 320 -defaultsOSRD
+preplace inst zero_padding -pg 1 -lvl 4 -x 1470 -y 160 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -x 1128 -y 170 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 800 -y 200 -defaultsOSRD
+preplace inst rst_ps7_0_125M -pg 1 -lvl 1 -x 270 -y 450 -defaultsOSRD
+preplace inst digitalPulseProcessi_0 -pg 1 -lvl 3 -x 1128 -y 320 -defaultsOSRD
+preplace netloc Net 1 0 5 20 320 520 50 970 50 1290 50 1630J
+preplace netloc Net1 1 3 2 1300 100 1640J
+preplace netloc adc_clk_p_i_1 1 0 3 NJ 340 NJ 340 NJ
+preplace netloc adc_dat_a_i_1 1 0 5 NJ 550 NJ 550 980 550 NJ 550 NJ
+preplace netloc adc_dat_b_i_1 1 0 5 NJ 570 NJ 570 NJ 570 NJ 570 NJ
+preplace netloc adc_processing_0_led_out 1 5 1 NJ 570
+preplace netloc daisy_n_i_1 1 0 4 NJ 730 NJ 730 NJ 730 NJ
+preplace netloc daisy_p_i_1 1 0 4 NJ 710 NJ 710 NJ 710 NJ
+preplace netloc digitalMCA_0_halfFull 1 4 1 N 320
+preplace netloc digitalMCA_0_outputBus 1 4 1 N 280
+preplace netloc digitalMCA_0_overflow 1 4 1 N 300
+preplace netloc digitalPulseProcessi_0_dataOut 1 3 1 1310 260n
+preplace netloc digitalPulseProcessi_0_trigOut 1 3 1 1320 280n
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 4 30 330 540 70 960 70 1270J
+preplace netloc rst_ps7_0_125M_peripheral_aresetn 1 1 1 550 180n
+preplace netloc util_ds_buf_1_IBUF_OUT 1 4 1 N 710
+preplace netloc util_ds_buf_2_OBUF_DS_N 1 5 1 NJ 730
+preplace netloc util_ds_buf_2_OBUF_DS_P 1 5 1 NJ 710
+preplace netloc xlconcat_0_dout 1 3 3 1280J 70 NJ 70 1940
+preplace netloc xlconstant_0_dout 1 4 1 1620J 160n
+preplace netloc processing_system7_0_DDR 1 1 5 510J 60 NJ 60 NJ 60 NJ 60 1960J
+preplace netloc processing_system7_0_FIXED_IO 1 1 5 530J 80 NJ 80 NJ 80 NJ 80 1950J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 510 140n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 950 150n
+levelinfo -pg 1 0 270 800 1128 1470 1790 1980
+pagesize -pg 1 -db -bbox -sgen -170 0 2140 790
+"
+}
+{
+   "da_axi4_cnt":"1"
+}

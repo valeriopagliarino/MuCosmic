@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Jan 11 15:28:09 2023
+# Process ID: 14660
+# Current directory: C:/XilinxProjects/redpitaya-fpga-example-template
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11380 C:\XilinxProjects\redpitaya-fpga-example-template\adc_dac_control.xpr
+# Log file: C:/XilinxProjects/redpitaya-fpga-example-template/vivado.log
+# Journal file: C:/XilinxProjects/redpitaya-fpga-example-template\vivado.jou
+# Running On: VALERIOPAGLFEF1, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 4, Host memory: 8584 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/XilinxProjects/redpitaya-fpga-example-template/adc_dac_control.xpr
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+open_bd_design {c:/XilinxProjects/redpitaya-fpga-example-template/adc_dac_control.srcs/sources_1/bd/system/system.bd}

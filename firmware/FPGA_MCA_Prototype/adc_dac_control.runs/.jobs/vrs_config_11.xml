@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_axis_red_pitaya_adc_0_0_synth_1" LaunchDir="/home/will/redpitaya/fpga_examples/redpitaya_guide/adc_dac_control/adc_dac_control.runs/system_axis_red_pitaya_adc_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_adc_processing_0_0_synth_1" LaunchDir="/home/will/redpitaya/fpga_examples/redpitaya_guide/adc_dac_control/adc_dac_control.runs/system_adc_processing_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/will/redpitaya/fpga_examples/redpitaya_guide/adc_dac_control/adc_dac_control.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="system_axis_red_pitaya_adc_0_0_synth_1"/>
+		<Parent Id="system_adc_processing_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/will/redpitaya/fpga_examples/redpitaya_guide/adc_dac_control/adc_dac_control.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="system_axis_red_pitaya_adc_0_0_synth_1"/>
+		<Parent Id="system_adc_processing_0_0_synth_1"/>
+	</Run>
+</Runs>
+
