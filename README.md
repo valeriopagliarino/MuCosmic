@@ -46,6 +46,7 @@ You can freely reuse part of this project, but reference to the author is apprec
   - [Scintillator robotic holder](./docs/images/PlasticScintHolder.JPG)
   - [RedPitaya Readout](./docs/images/RedPitaya.JPG)
   - [Typical scintillator + SiPM + shaping amplifier signal waveform with coincidence](./data/Pulse_shaper_output_scope/DS1Z_QuickPrint19.png)
+  - [Video presentation](https://drive.google.com/file/d/1HAYBrgGeV7JeQhQqhtkxtIOAlfAdhUKZ/view?usp=share_link)
 
 ## Useful documents for further developments
 
